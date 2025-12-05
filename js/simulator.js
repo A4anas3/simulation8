@@ -392,7 +392,7 @@ imageX.addEventListener("drop", (e) => {
 
   if (dragged === "dragging-y" && !isImageYDropped) {
     imageY.style.visibility = "hidden";
-    imageX.src = "../images/parts/sh1.png";
+    imageX.src = "images/parts/sh1.png";
     isImageYDropped = true;
     item = "metal"; // choose any default output image
     $("#insertButton").prop("disabled", false);
